@@ -177,10 +177,9 @@ gap: 1rem;
 }
 
 /* Analytics  */
-.analytic{
-  
+.analytics:hover{
+  background-color: #1329b9;
 }
-
 
 
 
@@ -197,4 +196,15 @@ gap: 1rem;
   align-items: center;
   justify-content:space-between;
   padding: 1rem 1rem 1rem 1rem;
+}
+
+/* .firstRow,.secondRow:hover{ */
+  /* background-color: #a5a7af; */
+  /* border-radius: 1rem; */
+/* } */
+
+.hover:hover{
+  background-color: #f3f3f3;
+  border-radius: 0.8rem;
+  /* transition-duration: 1; */
 }
