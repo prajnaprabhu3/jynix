@@ -27,7 +27,7 @@ function Details() {
                         </div>
 
                         <div className="name">
-                            <h3>   {data?.team[0].name}  </h3>
+                            <h4>   {data?.team[0].name}  </h4>
                             <p>    {data?.team[0].designation}  </p>
                         </div>
 
@@ -36,6 +36,7 @@ function Details() {
                         </div>
 
                     </div>
+
 
                     {/* One ends  */}
 
@@ -47,7 +48,7 @@ function Details() {
                         </div>
 
                         <div className="name">
-                            <h3>   {data?.team[1].name}  </h3>
+                            <h4>   {data?.team[1].name}  </h4>
                             <p>    {data?.team[1].designation}  </p>
                         </div>
 
@@ -67,7 +68,7 @@ function Details() {
                         </div>
 
                         <div className="name">
-                            <h3>   {data?.team[2].name}  </h3>
+                            <h4>   {data?.team[2].name}  </h4>
                             <p>    {data?.team[2].designation}  </p>
                         </div>
 
@@ -87,7 +88,7 @@ function Details() {
                         </div>
 
                         <div className="name">
-                            <h3>   {data?.team[3].name}  </h3>
+                            <h4>   {data?.team[3].name}  </h4>
                             <p>    {data?.team[3].designation}  </p>
                         </div>
 

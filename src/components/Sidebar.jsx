@@ -9,7 +9,12 @@ import calender from '../images/calender.png';
 import report from '../images/report.png';
 import setting from '../images/setting.png';
 import { FiLogOut } from "react-icons/fi";
-import { AiOutlineHome, }
+import home1 from '../images/home1.svg';
+import team1 from '../images/team1.svg';
+import task1 from '../images/task1.svg';
+import report1 from '../images/report1.svg';
+import calendar1 from '../images/calendar1.svg';
+import setting1 from '../images/setting1.svg';
 
 // Css file 
 import '../index.css';
@@ -32,22 +37,22 @@ function Sidebar() {
                     <div className="links">
                         <ul>
                             <li onClick={() => setPresentLink(1)} className={presentLink === 1 ? "active" : ""}>
-                                <a href="#"> <img src={home} alt="" /> <span>Home</span>  </a>
+                                <a href="#"> <img src={home1} alt="" className="img" /> <span>Home</span>  </a>
                             </li>
                             <li onClick={() => setPresentLink(2)} className={presentLink === 2 ? "active" : ""}>
-                                <a href="#"> <img src={team} alt="" /> <span>Team</span>  </a>
+                                <a href="#"> <img src={team1} alt="" /> <span>Team</span>  </a>
                             </li>
                             <li onClick={() => setPresentLink(3)} className={presentLink === 3 ? "active" : ""}>
-                                <a href="#"> <img src={task} alt="" /> <span>Task</span>  </a>
+                                <a href="#"> <img src={task1} alt="" /> <span>Task</span>  </a>
                             </li>
                             <li onClick={() => setPresentLink(4)} className={presentLink === 4 ? "active" : ""}>
-                                <a href="#"> <img src={calender} alt="" /> <span>Calen</span>  </a>
+                                <a href="#"> <img src={calendar1} alt="" /> <span> Calendar</span>  </a>
                             </li>
                             <li onClick={() => setPresentLink(5)} className={presentLink === 5 ? "active" : ""}>
-                                <a href="#"> <img src={report} alt="" /> <span>Report</span>  </a>
+                                <a href="#"> <img src={report1} alt="" /> <span>Report</span>  </a>
                             </li>
                             <li onClick={() => setPresentLink(6)} className={presentLink === 6 ? "active" : ""}>
-                                <a href="#"> <img src={setting} alt="" /> <span>Setting</span>  </a>
+                                <a href="#"> <img src={setting1} alt="" /> <span>Setting</span>  </a>
                             </li>
                         </ul>
                     </div>
