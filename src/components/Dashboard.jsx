@@ -4,7 +4,7 @@ import Analytics from './Analytics';
 import Navbar from './Navbar';
 import Profile from './Profile';
 import Transfers from './Transfers';
-import Earnings from './Earnings';
+import { Earnings } from './Earnings';
 import { Chart } from './Chart';
 
 function Dashboard() {
