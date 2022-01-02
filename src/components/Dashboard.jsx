@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from "styled-components";
 import Analytics from './Analytics';
-import FAQ from './BarChart';
 import Navbar from './Navbar';
 import Profile from './Profile';
 import Transfers from './Transfers';
 import Earnings from './Earnings';
+import { Chart } from './Chart';
 
 function Dashboard() {
     return (
@@ -14,7 +14,7 @@ function Dashboard() {
             <div className="grid">
                 <div className="row1">
                     <Analytics />
-                    <FAQ />
+                    <Chart />
                 </div>
                 <div className="row2">
                     <Earnings />
