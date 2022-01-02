@@ -34,7 +34,17 @@ export const options = {
             display: true,
             text: 'Team Activities',
         },
-    },
+        datalabels: {
+            enabled: false
+        },
+        stroke: {
+            curve: 'smooth',
+        },
+        grid: {
+            show: false,
+        },
+    }
+
 };
 
 const labels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June'];
@@ -61,7 +71,7 @@ export const data = {
 export function Earnings() {
     return (
         <Section>
-            <Line options={options} data={data} />
+            <Line type="monotone" options={options} data={data} />
         </Section>
     );
 }
