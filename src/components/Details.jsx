@@ -17,7 +17,8 @@ function Details() {
     return (
         <div>
             <Section>
-
+                {/* <div>                <h4 className='heading'>Team Members</h4> */}
+                {/* </div> */}
                 <div className="members">
                     {/* One  */}
                     <div className="one">
